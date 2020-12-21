@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header-img {
+  height: 80px;
+  object-fit: contain;
+}
+
+.header-icon,
+.arrow-icon {
+  padding: 25px;
+  font-size: larger;
+}

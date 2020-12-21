@@ -1,0 +1,56 @@
+.conversation {
+  overflow: hidden;
+}
+
+.conversation-timestamp {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
+
+.conversation-message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.conversation-text {
+  margin-left: 10px;
+  text-align: left;
+  background-color: cadetblue;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.conversation-textUser {
+  margin-left: auto;
+  background-color: #29b3cd;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.conversation-input {
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid rgb(211, 208, 208);
+  background-color: #29b3cd;
+}
+
+.conversation-input-field {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.conversation-input-button {
+  border: none;
+  margin: 20px;
+  background-color: white;
+  font-weight: bolder;
+  color: #fe3d71;
+}
